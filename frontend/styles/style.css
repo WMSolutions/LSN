@@ -1,0 +1,323 @@
+/* 
+    Document   : style
+    Created on : 11.10.2013, 16:33:45
+    Author     : 666
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*------------*/
+/*-Font-Faces-*/
+/*------------*/
+
+@font-face {
+    font-family: Days;
+    src: url('../fonts/Days.ttf');
+}
+
+/*@font-face {
+    font-family: CaviarDreams;
+    src: url('../fonts/CaviarDreams.ttf');
+}*/
+
+@font-face {
+    font-family: Homizio;
+    src: url('../fonts/regular.ttf');
+}
+
+@font-face {
+    font-family: CaviarDreamsBold;
+    src: url('../fonts/CaviarDreamsBoldItalic.ttf');
+}
+
+/*@font-face {
+    font-family: Homizio;
+    src: url('../fonts/regular.ttf');
+}*/
+/*----------*/
+/*-Headings-*/
+/*----------*/
+
+h1 {
+    font-family: Days;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+h2 {
+    font-family: Homizio;
+    line-height: 1.25em;
+    font-size: 1.25em;   
+    margin: 0;    
+}
+
+h3 {
+    font-family: Homizio;
+    line-height: 1em;
+    font-size: 1em;   
+    margin: 0;
+}
+
+.special_heading {
+    font-family: Homizio;
+    font-size: 1.1em;
+    background-color: #DBDBD0;
+    border: 1px solid #000000;
+    display: inline-block;
+    padding: 10px;
+}
+
+/*----------------*/
+/*-Basic Elements-*/
+/*----------------*/
+
+body {
+    background-color: #FFFFED;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: arial;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    font-family: arial;
+    font-style: italic;
+}
+
+textarea, input[type="text"], input[type="email"]  {
+    resize: none;
+    width: 150px;
+}
+
+/*--------------*/
+/*-Basic Design-*/
+/*--------------*/
+
+/* Header */
+
+.main_header {   
+    position: relative;
+    width: 100%;
+    background: url(../img/lsn_webheader02.gif) repeat-x center ;
+    height: 243px;
+}
+
+/* Main Menu */
+
+.main_nav {   
+    position: relative;
+    top: 105px;
+    height: 30px;
+    background-color: #DBDBD0;
+    -webkit-box-shadow: inset 0px 0px 10px #000000; /* webkit browser*/ 
+    -moz-box-shadow: inset 0px 0px 10px #000000; /* firefox */ 
+    box-shadow: inset 0px 0px 10px #000000;
+    border-radius: 10px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu:hover > .dropdown {
+    display: block;     
+}
+
+.menu_header {
+    padding: 4px 10px !important;
+    margin: 0 auto;   
+}
+
+.menu_item:hover {
+    background-color: #DBDBD0;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0px 0px 10px #000000; /* webkit browser*/ 
+    -moz-box-shadow: inset 0px 0px 10px #000000; /* firefox */ 
+    box-shadow: inset 0px 0px 10px #000000;
+}
+
+.menu_item {
+    font-family : Days;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 2px 5px;  
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+    text-align: left;
+    background-color: #DBDBD0;
+    -webkit-box-shadow: inset 0px 0px 10px #000000; /* webkit browser*/ 
+    -moz-box-shadow: inset 0px 0px 10px #000000; /* firefox */ 
+    box-shadow: inset 0px 0px 10px #000000;
+    border-radius: 3px;
+    z-index: 99;
+    
+} 
+
+/* Content */
+
+.content {
+    position: relative;
+    clear: left;
+    float: left;
+    overflow: hidden;
+    margin-right: 182px;
+    margin-left: 180px;
+    border: 3px double #DBDBD0;
+    border-bottom: none;
+}
+
+.wrapper {  
+    border-right: 3px double #DBDBD0;   
+    margin-right: 200px;
+    float: left;
+    position: relative;
+    right: 50%;
+    width: 100%;
+}
+
+/* Columns */
+
+.left_col {
+    vertical-align: top;    
+    float: left;
+    left: 50%;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+}
+
+.right_col {  
+    float: left;
+    left: 50.2%;
+    overflow: hidden;
+    position: relative;
+    width:50%;
+}
+
+/* Cells */
+
+.cell {
+    padding: 10px;
+}
+
+.mixed_cell img {
+    float: left;
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 10px;
+}
+
+/* Footer */
+
+.main_footer {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.footer_nav {
+    border: 3px double #DBDBD0;
+    margin-right: 182px;
+    margin-left: 10px;
+}   
+
+.footer_nav div {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.8em;
+}
+.footer_nav a {
+    display: inline-block;
+}
+
+/* Contact Form*/
+
+.contact_form {
+    font-family: arial;
+    position: fixed;
+    top: 249px;
+    right: 10px;
+    width: 170px;  
+    background: url(../img/lift_top.jpg) no-repeat top;
+}
+
+.contact_form h3 {
+    text-align: center;
+    padding: 12px 0;
+}
+.contact_form form {   
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 6px;
+    background: url(../img/lift.jpg) repeat-y center ;
+}
+
+/* Glossar */
+
+.gloss {
+    font-family: arial;
+}
+
+span.gloss {
+    vertical-align: top;  
+}
+span.gloss:after {
+    content: '*';
+}
+
+footer.gloss { 
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+/* Other Matters*/
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline_block {
+    display: inline-block;
+}
+
+.grayborder {    
+    border: 1px solid #DBDBD0;
+    border-radius: 3px;
+}
+
+.border-bottom {    
+    border-bottom: 3px double #DBDBD0;
+}
+
+.highlight {
+    font-weight: bolder;
+    color: #6F74BF;
+}

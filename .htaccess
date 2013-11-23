@@ -5,8 +5,8 @@ RewriteBase /
 RewriteCond %{REQUEST_URI} ^/$ [NC]
 RewriteRule ^$ frontend/html/index\.html [NC,L]
 
-RewriteCond %{REQUEST_URI} [a-zA-Z]+\.html [NC]
-RewriteRule ([a-zA-Z]+)\.html frontend/html/$1\.html [NC,L]
+RewriteCond %{DOCUMENT_ROOT} .+([a-zA-Z]+|(([a-zA-Z]+)-[a-zA-Z]+)+)\.html [NC]
+RewriteRule .+([a-zA-Z]+|(([a-zA-Z]+)-[a-zA-Z]+)+)\.html frontend/html/.+$1\.html [NC,L]
 
 RewriteCond %{REQUEST_URI} [a-zA-Z]+\.php [NC]
 RewriteRule ([a-zA-Z]+)\.php backend/php/$1\.php [NC,L]

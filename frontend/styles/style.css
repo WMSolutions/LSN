@@ -175,12 +175,12 @@ textarea, input[type="text"], input[type="email"]  {
     overflow: hidden;
     margin-right: 182px;
     margin-left: 180px;
-    border: 3px double #DBDBD0;
+    border: 3px solid #DBDBD0;
     border-bottom: none;
 }
 
 .wrapper {  
-    border-right: 3px double #DBDBD0;   
+    border-right: 3px solid #DBDBD0;   
     margin-right: 200px;
     float: left;
     position: relative;
@@ -229,7 +229,7 @@ textarea, input[type="text"], input[type="email"]  {
 }
 
 .footer_nav {
-    border: 3px groove #ffffff;
+    border: 3px solid #DBDBD0;
     margin-right: 182px;
     margin-left: 180px;
 }   
@@ -315,7 +315,7 @@ footer.gloss {
 }
 
 .border-bottom {    
-    border-bottom: 3px double #DBDBD0;
+    border-bottom: 3px solid #DBDBD0;
 }
 
 .highlight {

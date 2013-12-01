@@ -39,28 +39,28 @@
 /*----------*/
 
 h1 {
-    font-family: Days;
+    font-family: Verdana;
     line-height: 1.5em;
     font-size: 1.5em;
     margin: 5px 0;
 }
 
 h2 {
-    font-family: Homizio;
+    font-family: Verdana;
     line-height: 1.25em;
     font-size: 1.25em;   
     margin: 0;    
 }
 
 h3 {
-    font-family: Homizio;
+    font-family: Verdana;
     line-height: 1em;
     font-size: 1em;   
     margin: 0;
 }
 
 .special_heading {
-    font-family: Homizio;
+    font-family: Verdana;
     font-size: 1.1em;
     background-color: #DBDBD0;
     border: 1px solid #000000;
@@ -73,7 +73,7 @@ h3 {
 /*----------------*/
 
 body {
-    background-color: #FFFFED;
+    background-color: #C2C2C2;
     padding: 0;
     margin: 0;
 }
@@ -116,11 +116,11 @@ textarea, input[type="text"], input[type="email"]  {
     position: relative;
     top: 105px;
     height: 30px;
-    background-color: #DBDBD0;
-    -webkit-box-shadow: inset 0px 0px 10px #000000; /* webkit browser*/ 
-    -moz-box-shadow: inset 0px 0px 10px #000000; /* firefox */ 
-    box-shadow: inset 0px 0px 10px #000000;
-    border-radius: 10px;
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 0px 0px 5px #000000; /* webkit browser*/ 
+    -moz-box-shadow: inset 0px 0px 5px #000000; /* firefox */ 
+    box-shadow: inset 0px 0px 5px #000000;
+    border-radius: 5px;
 }
 
 .menu {
@@ -132,42 +132,42 @@ textarea, input[type="text"], input[type="email"]  {
 }
 
 .menu_header {
-    padding: 4px 10px !important;
+    padding: 3px 10px 8px !important;
     margin: 0 auto;   
 }
 
 .menu_item:hover {
-    background-color: #DBDBD0;
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0px 0px 10px #000000; /* webkit browser*/ 
-    -moz-box-shadow: inset 0px 0px 10px #000000; /* firefox */ 
-    box-shadow: inset 0px 0px 10px #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 0px 5px #000000; /* webkit browser*/ 
+    -moz-box-shadow: inset 0px 0px 5px #000000; /* firefox */ 
+    box-shadow: inset 0px 0px 5px #000000;
 }
 
 .menu_item {
-    font-family : Days;
+    font-family : Verdana;
     text-decoration: none;
     color: #000000;
     display: block;
-    padding: 2px 5px;  
+    padding: 5px;  
 }
 
 .dropdown {
     position: absolute;
     display: none;
     text-align: left;
-    background-color: #DBDBD0;
-    -webkit-box-shadow: inset 0px 0px 10px #000000; /* webkit browser*/ 
-    -moz-box-shadow: inset 0px 0px 10px #000000; /* firefox */ 
-    box-shadow: inset 0px 0px 10px #000000;
-    border-radius: 3px;
-    z-index: 99;
-    
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 0px 0px 5px #000000; /* webkit browser*/ 
+    -moz-box-shadow: inset 0px 0px 5px #000000; /* firefox */ 
+    box-shadow: inset 0px 0px 5px #000000;
+    border-radius: 5px;
+    z-index: 99;   
 } 
 
 /* Content */
 
 .content {
+    background-color: #FFFFFF;
     position: relative;
     clear: left;
     float: left;
@@ -310,7 +310,7 @@ footer.gloss {
 
 .grayborder {    
     border: 1px solid #DBDBD0;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .border-bottom {    

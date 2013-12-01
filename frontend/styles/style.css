@@ -117,9 +117,9 @@ textarea, input[type="text"], input[type="email"]  {
     top: 105px;
     height: 30px;
     background-color: #ffffff;
-    -webkit-box-shadow: inset 0px 0px 5px #000000; /* webkit browser*/ 
-    -moz-box-shadow: inset 0px 0px 5px #000000; /* firefox */ 
-    box-shadow: inset 0px 0px 5px #000000;
+    -webkit-box-shadow: inset 0px 0px 2px #000000; /* webkit browser*/ 
+    -moz-box-shadow: inset 0px 0px 2px #000000; /* firefox */ 
+    box-shadow: inset 0px 0px 2px #000000;
     border-radius: 5px;
 }
 
@@ -132,16 +132,17 @@ textarea, input[type="text"], input[type="email"]  {
 }
 
 .menu_header {
-    padding: 3px 10px 8px !important;
+    padding: 5px 10px 6px !important;
     margin: 0 auto;   
 }
 
 .menu_item:hover {
     background-color: #ffffff;
+    opacity: 0.5;
     border-radius: 5px;
-    -webkit-box-shadow: inset 0px 0px 5px #000000; /* webkit browser*/ 
-    -moz-box-shadow: inset 0px 0px 5px #000000; /* firefox */ 
-    box-shadow: inset 0px 0px 5px #000000;
+    -webkit-box-shadow: inset 0px 0px 2px #000000; /* webkit browser*/ 
+    -moz-box-shadow: inset 0px 0px 2px #000000; /* firefox */ 
+    box-shadow: inset 0px 0px 2px #000000;
 }
 
 .menu_item {
@@ -157,9 +158,9 @@ textarea, input[type="text"], input[type="email"]  {
     display: none;
     text-align: left;
     background-color: #ffffff;
-    -webkit-box-shadow: inset 0px 0px 5px #000000; /* webkit browser*/ 
-    -moz-box-shadow: inset 0px 0px 5px #000000; /* firefox */ 
-    box-shadow: inset 0px 0px 5px #000000;
+    -webkit-box-shadow: inset 0px 0px 2px #000000; /* webkit browser*/ 
+    -moz-box-shadow: inset 0px 0px 2px #000000; /* firefox */ 
+    box-shadow: inset 0px 0px 2px #000000;
     border-radius: 5px;
     z-index: 99;   
 } 
@@ -228,7 +229,7 @@ textarea, input[type="text"], input[type="email"]  {
 }
 
 .footer_nav {
-    border: 3px double #DBDBD0;
+    border: 3px groove #ffffff;
     margin-right: 182px;
     margin-left: 180px;
 }   
@@ -239,9 +240,9 @@ textarea, input[type="text"], input[type="email"]  {
     text-align: center;
     font-size: 0.8em;
 }
-.footer_nav a {
+/*.footer_nav a {
     display: inline-block;
-}
+}*/
 
 /* Contact Form*/
 

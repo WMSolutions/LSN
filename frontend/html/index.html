@@ -145,7 +145,7 @@ and open the template in the editor.
         <footer class="main_footer">
             <nav class="footer_nav">
                 <div>                    
-                    <a class="menu_item" href="#Impressum">Impressum</a>
+                    <a class="menu_item" href="contact/company-details.html">Impressum</a>
                 </div>
                 <div>     
                     <a class="menu_item" href="#Kontakt">Kontakt</a>
@@ -156,19 +156,18 @@ and open the template in the editor.
             </nav>
         </footer>
             
-        <div class="contact_form">
-            <h3>Kontakt</h3>
+        <div class="contact_form background_image">
+            <h3 class="contact_teazer_heading">Kontakt</h3>
             <form action="contact.php" method="post">
-                Email Adresse <span class="gloss"></span>
-                <input  type="email" name="email_address" required/>    
-                Name
-                <input type="text" name="name" />
-                Nachricht <span class="gloss"></span>
-                <textarea name="message" required></textarea>
-                <button type="submit" value="submit" name="submit">Senden</button> 
-                <footer class="gloss">
-                    *&nbsp;&nbsp;-&nbsp;&nbsp;Muss ausgefüllt werden!
-                </footer>
+                <div class="form_fields">
+                    <input class="input_field" type="email" name="email_address" required placeholder="E-Mail Adresse *"/>
+                    <input class="input_field" type="text" name="name" placeholder="Name"/>
+                    <textarea class="input_field" name="message" required placeholder="Ihre Nachricht *"></textarea>
+                    <button class="submit_button" type="submit" value="submit" name="submit">Senden</button> 
+                    <footer class="gloss inline_block">
+                        *&nbsp;&nbsp;-&nbsp;&nbsp;Pflichtfeld!
+                    </footer>
+                </div>
             </form>
         </div>
     </body>

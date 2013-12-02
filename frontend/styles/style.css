@@ -247,12 +247,53 @@ textarea, input[type="text"], input[type="email"]  {
 /* Contact Form*/
 
 .contact_form {
-    font-family: arial;
+    font-family: Verdana;
     position: fixed;
     top: 249px;
     right: 10px;
-    width: 170px;  
-    background: url(../img/lift_top.jpg) no-repeat top;
+    width: 172px;  
+    height: 300px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    margin-right: -5px;
+}
+
+.input_field {
+    font-family: Verdana;
+    font-size: 1.1em;
+    padding: 5px;
+    /*border: 1px solid #000000;*/
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+    border-radius:3px;
+    opacity: 0.5;
+    margin-top: 5px;
+}
+
+.form_fields {
+    margin-left: -4px;
+    margin-top: 35px;
+}
+
+.contact_teazer_heading{
+    margin-bottom: 20px;
+    margin-top: -8px;
+    font-family: Calibri;
+    font-style: oblique;
+    font-size: 1.4em;
+}
+
+.submit_button {
+    font-family: Verdana;
+    /*border: 1px solid #000000;*/
+    opacity: 0.5;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0.3,0.3,0.3,0.3);
+    margin-left: 4px;
+}
+
+.background_image {
+    background-image: url(../img/aufzug_tueren_kontakt.png);
 }
 
 .contact_form h3 {
@@ -260,16 +301,17 @@ textarea, input[type="text"], input[type="email"]  {
     padding: 12px 0;
 }
 .contact_form form {   
-    font-weight: bold;
     font-size: 0.9em;
     padding: 6px;
-    background: url(../img/lift.jpg) repeat-y center ;
 }
 
 /* Glossar */
 
 .gloss {
-    font-family: arial;
+    font-family: Verdana;
+    font-size: 0.6em;
+    font-style: italic;
+    opacity: 0.7;
 }
 
 span.gloss {
@@ -282,8 +324,6 @@ span.gloss:after {
 footer.gloss { 
     padding-top: 10px;
     padding-left: 10px;
-    font-size: 0.7em;
-    font-style: italic;
 }
 
 /* Other Matters*/
